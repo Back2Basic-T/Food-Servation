@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.head1{
+  width: 100%;
+  height: 51px;
+  background-color: black;
+}
+.head1 h1{
+  position: absolute;
+  padding: 3px;
+  float: right;
+  margin-left: 2%;
+  margin-top: 3px;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+    font-family: Impact;
+}
+.head1 span{
+color:  #83ECFF;
+}
+.head1 ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-right: 0px;
+  border-top: 3px solid black;
+  padding: 0;
+  background-color: white;
+}
+.head1 li {
+  float: right;
+}
+.head1 li a {
+  margin-top: -2px;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+     border-radius: 20px;
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: white;
+  color: black;
+
+}
+body{
+  height: 100%;
+  background-image: url("bg1.jpg"); 
+  background-size: 100%;
+  background-repeat: repeat; 
+}
+.bg-text {
+  background-color: white;
+   color: white;
+  font-weight: bold;
+  border: 3px solid black;
+   border-radius: 10px;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50.5%;
+  text-align: center;
+}
+.bg-text h1{
+ -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  text-align: center;
+  font-family: Impact;
+
+}
+.form form{ 
+  margin-left: 25%;
+  margin-top: 11%; 
+}
+.PI{
+    background-color: white;
+   color: white;
+  font-weight: bold;
+  border: 3px solid black;
+   border-radius: 10px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-200%, 200%);
+  z-index: 2;
+  width: 200px;
+  text-align: center;
+  height: 7%;
+}
+.PI h1{
+    position: absolute;
+  padding: 3px;
+  float: right;
+  margin-left: 2%;
+  margin-top: 3px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+    font-family: Impact;
+}
+.form1{
+  top: 10%;
+    transform: translate(40%, -100%);
+}
+
+.form2{ 
+  top: 10%; 
+  transform: translate(55%, -497%); 
+}
+.Order{
+    background-color: white;
+   color: white;
+  font-weight: bold;
+  border: 3px solid black;
+   border-radius: 10px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-430%, 510%);
+  z-index: 2;
+  width: 90px;
+  text-align: center;
+  height: 7%;
+}
+.Order h1{
+    position: absolute;
+  padding: 3px;
+  float: right;
+  margin-left: 2%;
+  margin-top: 3px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+    font-family: Impact;
+}
+.form3{
+    top: 10%; 
+  transform: translate(25%, -70%); 
+}
+.form4{
+    top: 10%; 
+  transform: translate(25%, -70%); 
+}
+.form5{
+    top: 10%; 
+  transform: translate(40%, -271%); 
+}
+.form6{
+    top: 10%; 
+  transform: translate(40%, -230%); 
+}
+.form7{
+   top: 10%; 
+  transform: translate(55%,  -492%); 
+}
